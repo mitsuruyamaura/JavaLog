@@ -15,12 +15,15 @@ public class MainActivity extends AppCompatActivity {
         Dog dog = new Dog("ポチ",3);
 
         //  名前をアンドロイド、年齢を20歳のHumanのインスタンスを作る
-        Human human = new Human("アンドロイド",20);
+        Human human = new Human("アンドロイド",20,"夢を見る");
 
         //  moveメソッドの呼び出し
         dog.move();
 
         //  thinkメソッドの呼び出し
         human.think();
+
+        //  sayメソッドの呼び出し
+        human.say();
     }
 }
