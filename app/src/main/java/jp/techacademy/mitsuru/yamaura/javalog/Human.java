@@ -6,15 +6,16 @@ import android.util.Log;
 class Human extends Animal implements Thinkable{
 
     //  コンストラクタ（変数の初期化）
-    public Human(String name,int age) {
+    public Human(String name,int age,String hobby) {
 
         //  Animalメンバ変数のHuman引数から取得
         //  インスタンスに合わせて取得できる
         this.name = name;
         this.age = age;
+        this.hobby = hobby;
     }
     //  メンバ変数
-    String hobby = "夢";
+    //String hobby;
 
     //  メンバ関数。アノテーションをつける
     @Override
